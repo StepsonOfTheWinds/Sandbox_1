@@ -4,6 +4,8 @@ public class Task5_6Password {
 
     private String password;
 
+    char[] specialSymbols = {'!', '@', '#', '$', '%', '^', '&', '*', '№'};
+
     private void setPassword(String pass) {
         this.password = pass;
     }
